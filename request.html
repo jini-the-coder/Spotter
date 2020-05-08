@@ -1,0 +1,57 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: dodgerblue;
+}
+
+.container {
+  border-radius: 5px;
+  background: url(images/bg1.jpg);
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+<div>
+<h3>Camp Request</h3>
+<div class="container">
+  <form action="request.php" method="post">
+  Name: <input type="text" name="name"><br><br><br>
+  Location: <input type="text" name="location"><br><br><br>
+ Message:
+<textarea rows="4" cols="50" name="comment">
+</textarea><br><br><br>
+  <input type="submit">
+</form>
+</div>
+</div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,92 @@
+<html>
+ <title>SPOTTER</title>
+
+<head><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="icon" type="image/png" href="images/logo.png"/>
+</head>
+
+   <body >
+	<style>
+
+	.boxcont{ position:fixed ; width:100% ; height:100px ; top:0px ; left:0px ; background-color:rgb(245,245,245)  ; z-index:20}
+    .til{text-align:center ;font-family: Arial, Helvetica, sans-serif;font-size: 30px;color:blue}
+
+	.main{width:100% ; height:526px ; top:104px ; left:0px ; position:absolute ; padding:0px ; margin:0px ; border-width:0 ; border:0}
+
+	.boxcont .home{font-size:20px ; border-width:0 ; background-color:rgb(245,245,245)}
+	.boxcont .home:hover{color:orange}
+	
+	.boxcont ul{float:left  ; padding-left:100px ; font-size:20px}
+		
+	.boxcont ul li a{font-size:20px ; padding:12.5px 30px ; display:block ; color:rgb(119,136,153) ; text-decoration:none ; font-family:Verdana}
+	.boxcont ul li a:hover{color:rgb(139,69,19) }
+
+	.boxcont ul li{float:left ; list-style:none ; position:relative}
+
+	.boxcont ul li ul{display:none ; position:absolute ; background-color:white ; padding:0 }
+	.boxcont ul li:hover ul{display:block }
+
+	.boxcont ul li ul li{width:215px}
+
+	.boxcont ul li ul li a{padding:20px 25px ; font-size:17px ; color:rgb(47,79,79) ; font-family:Arial}
+	.boxcont ul li ul li a:hover{background-color:	rgb(0,0,128) ; color:white}
+
+	
+	body{padding:0 0px 0px 0px ; margin:0 ; overflow-x:hidden ; overflow-y:hidden}
+	
+	.line{width:100% ; height:5px ; background-color:grey}
+	.line1{width:100% ; height:2px ; background-color:rgb(220,220,220)}
+
+	.boxcont .donate{color:rgb(220,20,60); font-family:Impact ; font-size:20px ; margin-bottom:5px}
+	.boxcont .donate:hover{background-color:rgb(220,20,60) ; color:white}
+        
+	 </style>
+	<div class="boxcont">
+	   <div class="til"><img src="images/logo.png" style="width:30px ; height=5px"> SPOTTER</div>
+	    <ul>
+	
+		<li><a href="main.html" target="d1" class="home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+		<li><a href="#">ABOUT</a>
+			<ul>
+			   <li><div class="line"></div><a href="about.html" target="d1">ABOUT US</a><div class="line1"></div></li>
+			   
+			</ul>
+		</li>
+		<li><a href="#">OUTLAY</a>
+			<ul>
+			
+			   <li><div class="line"></div><a href="camp.html" target="d1">CAMPS</a><div class="line1"></div></li>
+			   <li><a href="sponsor.html" target="d1">SPONSOR</a><div class="line1"></div></li>
+			   <li><a href="program.html" target="d1">PREVIOUS WORK</a><div class="line1"></div></li>
+				<li><a href="request.html" target="d1">CAMP REQUEST</a><div class="line1"></div></li>
+			</ul>	
+		</li>
+		<li><a href="#">REGISTER</a>
+			<ul>
+			   <li><div class="line"></div><a href="doctorreg.html" target="d1">AS Doctor</a><div class="line1"></div><li>
+			   <li><a href="volunteerreg.html" target="d1">AS Volunteer</a><div class="line1"></div><li>
+			   
+			</ul>
+		</li>
+		<li><a href="#" >LOGIN</a>
+		<ul>
+		<li><div class="line"></div><a href="admin.html" target="d1" ><i class="fa fa-user-secret" aria-hidden="true"></i>&emsp;ADMIN</a><div class="line1"></div></li>
+		<li><a href="volunteer.html" target="d1" ><i class="fa fa-user" aria-hidden="true"></i>&emsp;VOLUNTEER</a><div class="line1"></div></li>
+		<li><a href="doctor.html" target="d1" ><i class="fa fa-user" aria-hidden="true"></i>&emsp;DOCTOR</a><div class="line1"></div></li>
+		</ul>
+		</li>
+		<li><a href="#">VIEW</a>
+			<ul>
+			   <li><div class="line"></div><a href="doctornotice.php" target="d1">DOCTOR</a><div class="line1"></div></li>
+			   
+			</ul>
+		</li>
+		<li><a href="board.html" target="d1" class="donate">BOARD</a></li>
+	   </ul>
+		
+	</div>
+
+<iframe name="d1" class="main" src="main.html"></iframe>
+	
+   </body>
+</html>
